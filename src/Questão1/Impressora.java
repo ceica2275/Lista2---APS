@@ -25,6 +25,6 @@ public class Impressora {
         }
         System.out.println("Total:       R$"+soma);
         System.out.println("Valor recebido:    R$"+c.getDinheiroRecebido());
-        System.out.println("Troco:      R$"+ soma - c.getDinheiroRecebido());
+        //System.out.println("Troco:      R$"+ soma - c.getDinheiroRecebido());
     }
 }

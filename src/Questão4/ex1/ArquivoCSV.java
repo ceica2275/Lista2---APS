@@ -5,14 +5,11 @@ import java.io.File;
 import java.io.FileWriter;
 
 public class ArquivoCSV implements Implementador{
-    private static final String CSV = "/tmp/arquivoCsv.csv";
+    private static final String CSV = "testecsv.csv";
     public void operacaoConcreta() {
         
         try {
-            System.out.println("Iniciando geração do CSV");
-             
-            FileWriter fw = new FileWriter(new File(CSV));
-             
+            FileWriter fw = new FileWriter(new File(CSV));     
         }catch (Exception e) {
             e.printStackTrace();
         } 
